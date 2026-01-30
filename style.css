@@ -1,0 +1,81 @@
+#map {position:absolute; top:0; bottom:0; width:100%;}
+
+
+.Mypopup .maplibregl-popup-content {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1f3d2b; /* vert foncé pour rappeler la thématique */
+  border-radius: 14px;
+  padding: 14px 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border-left: 5px solid #3aa76d; /* petite touche verte design */
+  font-size: 14px;
+}
+
+.menu {
+            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            position: absolute;
+            width: 200px;
+            top: 60;
+            left: 50px;
+            padding: 10px;
+        }
+
+.menu .menu_overlay {
+            background-color: #fff;
+            box-shadow:0 1px 2px rgba(0, 0, 0, 0.10);
+            border-radius: 3px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+.menu_overlay fieldset {
+            border: none;
+            padding: 0;
+            margin: 0 0 10px;
+        }
+
+.menu_overlay .categoryLabel {
+            display: block;
+            font-weight: bold;
+            margin: 0 0 5px;
+        }
+
+#ongletsgeo {position: absolute; 
+             top: 10px; 
+            left: 50px; 
+             z-index: 1;
+             width:463px;
+             background-color: #ffffff;
+  
+} 
+
+.classy-banner{
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  padding: 12px 22px;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr; /* centre parfait */
+  align-items: center;
+
+  background: rgba(20, 20, 20, 0.9);
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+  box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255,255,255,0.08);
+
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  font-size: 16px;
+  color: #f5f5f5;
+
+  z-index: 9999;
+}
+
+.banner-text{
+  grid-column: 2;          /* texte au centre */
+  text-align: center;
+  letter-spacing: 0.5px;
+}
